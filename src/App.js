@@ -15,11 +15,11 @@ function App() {
     <div className="App">
       {/* <Catalog /> */}
       <Routes>
-        <Route exact path='/' element={ <Catalog/> } />
-        <Route path='/order' element={ <Order/> } />
+        <Route exact path='/cake/' element={ <Catalog/> } />
+        <Route path='/cake/order' element={ <Order/> } />
       </Routes>
 
-      <NavLink to='/order'>
+      <NavLink to='/cake/order'>
         <button className="see_order">Посмотреть заказ</button>
       </NavLink>
     </div>
