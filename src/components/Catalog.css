@@ -1,0 +1,30 @@
+.catalog_wrapper {
+  width: 415px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog_item {
+  display: flex;
+  width: 50%;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.btn_order {
+  padding: 8px 18px;
+  background-color: #f49915;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn_order:focus {
+  background-color: #f49920;
+}
+
