@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const Order = () => {
   return (
     <div className="order_wrapper">
-      <NavLink to="/">
+      <NavLink to="/cake">
         <p> Назад </p>
       </NavLink>
 
